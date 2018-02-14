@@ -1,0 +1,65 @@
+.songstyle{
+    width:30%;
+    border:2px dotted darkblue;
+    display:inline-block;
+    text-align:center;
+}
+
+.artiststyle{
+    width:30%;
+    border:2px dotted darkblue;
+    display:inline-block;
+    text-align:center;
+}
+
+.albumstyle{
+    width:30%;
+    border:2px dotted darkblue;
+    display:inline-block;
+    text-align:center
+}
+
+button{
+    margin-top:5px;
+    margin-bottom:5px;
+
+}
+#sort-songs{
+
+height:50px;
+width:100%;
+align-content:center;
+
+
+}
+.horizontal{
+    width:100%;
+    display:block;
+    height:70px;
+    text-align:justify;
+    border:2px dotted darkblue;
+}
+
+h1,
+h2{
+    text-align: center;
+}
+
+.buttondiv{
+    text-align:center;
+}
+
+
+#col-1{
+    display:inline-block;
+    text-align:left;
+
+}
+
+#col-2{
+    display:inline-block;
+    text-align:left;
+    position:absolute;
+    right:20px;
+
+}

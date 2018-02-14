@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bands</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="arraymethods.css" />
+
+
+</head>
+<body>
+    <h2>Add Your Favorite Songs to the Database</h2>
+    <form id="music-form" onsubmit="return false">
+        Artist:<input type="text" id="artist-input"></input><br>
+        Album:<input type="text" id="album-input"></input><br>
+        Song:<input type="text" id="song-input"></input><br>
+        <button id="sendDB">Submit</button><hr>
+
+
+    </form>
+
+    <section class"sort-boxes">
+        <div id="col-1">
+            <h2>Sort Vertically</h2>
+                <input type="radio" name="sort" id="a-z">A-Z
+                <input type="radio" name="sort" id="z-a">Z-A
+                <input type="radio" name="sort" id="old-to-new">Old to New
+                <input type="radio" name="sort" id="new-to-old">New to Old
+        </div>
+        <div id=col-2>
+            <h2>Sort horizontally</h2>
+                <input type="radio" name="sort" id="hor-a-z">A-Z
+                <input type="radio" name="sort" id="hor-z-a">Z-A
+                <input type="radio" name="sort" id="hor-old-new">Old to New
+                <input type="radio" name="sort" id="hor-new-old">New to Old
+        </div><br>
+        <div class="buttondiv">             
+    <button id="sort-songs">Sort</button>
+</div>
+    </section>
+    <section id="songID" class="songstyle"><b>Songs:</b><div id="song"></div></section>
+    <section id="albumID" class="albumstyle"><b>Albums:</b><div id="album"></div></section>
+    <section id="artistID" class="artiststyle"><b>Artists:</b><div id="artist"></div></section>
+
+    <script src="arraymethods.js"></script>
+</body>
+</html>
